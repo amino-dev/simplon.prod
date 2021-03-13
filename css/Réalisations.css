@@ -1,3 +1,8 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 /*             Nav bar                */
 .background{
     background-color: #CE0033;
@@ -42,9 +47,72 @@
 }
 
 /*             Team section               */
+
+.team-section {
+    margin-left: -2.5rem;
+}
+
+.team-description {
+    text-align: center;
+    background-color: #be2915;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    clip-path: polygon(0 0, 80% 0%, 100% 100%, 0% 100%);
+    margin-top: -3.3rem;
+}
+
+.team-job{
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: -1rem;	
+}
+
+.team-name {
+    font-size: 1.2rem;
+    margin-left: -2rem;
+}
+
 .team-img {
-    width: 20%;
-    height: 20%;
-    clip-path: circle(42% at 50% 50%);
+    border-radius: 10px;
+    height: 30rem;
+}
+
+@media screen and (min-width: 970px) and (max-width: 1200px) {
+    .team-job{
+        font-size: 0.8rem;    
+        }
+    .team-name {
+        font-size: 0.9rem;
+    }
+    .team-description {
+        margin-top: -2.7rem;
+    }   
   }
+
+  @media screen and (min-width: 765px) and (max-width: 970px) {
+    .team-job{
+    font-size: 0.7rem;
+    }
+    .team-name {
+        font-size: 0.7rem;
+    }
+    .team-description {
+        margin-top: -2.3rem;
+    } 
+  }
+   
+/*             Partenaires section               */
+
+.partenaire-img {
+   height: 8rem;
+  }
+
+.partenaire-link {
+    text-decoration: none;
+    color: black;
+}
   
+.partenaire-link:hover {
+    color: black;
+}
