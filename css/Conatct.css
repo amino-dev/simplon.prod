@@ -9,7 +9,7 @@ Body {
 /*             Nav bar                */
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    url(../img/developer.jpg);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -39,7 +39,7 @@ body {
 
 /*             Contact section               */
 form {
-  width: 60%;
+  width: 50%;
   margin: 60px auto;
   background: #fff;
   padding: 60px 60px 60px 60px;
@@ -114,15 +114,14 @@ button:hover {
   color: #fff;
 }
 
-
 @media screen and (max-width: 750px) {
   form {
     width: 80%;
-  } 
+  }
 }
 
 @media screen and (max-width: 400px) {
   form {
     width: 90%;
-  } 
+  }
 }
